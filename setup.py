@@ -21,8 +21,9 @@ setup(
     license='MIT',
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: Linux',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'Operating System :: POSIX :: Linux',
+        
     ],
     keywords='wireless, interface, WiFi, monitor, Linux, iw, iwconfig, ifconfig',
 )
