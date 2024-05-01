@@ -8,7 +8,9 @@ setup(
     name='wirelesswizard',
     version='0.1.0-alpha',
     packages=find_packages(),
-    install_requires=long_description,
+    install_requires=[
+        'pandas'
+    ],
     python_requires='>=3.9',
     author='mind2hex',
     author_email='neodeus8@gmail.com',
