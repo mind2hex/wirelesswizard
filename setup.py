@@ -6,7 +6,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8'
 
 setup(
     name='wirelesswizard',
-    version='0.1.0-alpha',
+    version='0.1.1-alpha',
     package_dir={'':'src'},
     packages=find_packages(where='src'),
     install_requires=[
