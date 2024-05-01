@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 
-"""
-WirelessWizard.py
-
-This module allows you to manipulate wireless network interfaces using system commands.
-
-Author: mind2hex <neodeus8@gmail.com>
-"""
 
 import subprocess
 import pandas as pd
@@ -14,7 +7,6 @@ import re
 import datetime
 from os import listdir
 from sys import platform
-from time import sleep
 
 
 class NetworkInfo:
@@ -772,15 +764,10 @@ def get_wireless_interfaces(verbose=False):
 
     return interfaces
 
-
-def main():
-    pass
     
 if __name__ == "__main__":
     if platform != "linux":
         print("WirelessWizard only supports Linux platforms.")
-
-    main()
 
 
 # TODO:
