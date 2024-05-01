@@ -1,2 +1,2 @@
 # wirelesswizard
-A simple wireless interface handler
+A simple wireless interface handler.
